@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10223" started-at="2014-08-02T05:30:10Z" finished-at="2014-08-02T05:30:21Z">
+  <suite name="Default suite" duration-ms="28725" started-at="2015-03-23T14:14:33Z" finished-at="2015-03-23T14:15:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10223" started-at="2014-08-02T05:30:10Z" finished-at="2014-08-02T05:30:21Z">
+    <test name="Default test" duration-ms="28725" started-at="2015-03-23T14:14:33Z" finished-at="2015-03-23T14:15:01Z">
       <class name="TestModule1.TestMavenSureFirePlugin">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestModule1.TestMavenSureFirePlugin@36263003]" name="beforeClass" is-config="true" duration-ms="2989" started-at="2014-08-02T13:30:10Z" finished-at="2014-08-02T13:30:13Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestModule1.TestMavenSureFirePlugin@726722a6]" name="beforeClass" is-config="true" duration-ms="4409" started-at="2015-03-23T22:14:33Z" finished-at="2015-03-23T22:14:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="start()[pri:0, instance:TestModule1.TestMavenSureFirePlugin@36263003]" name="start" duration-ms="5971" started-at="2014-08-02T13:30:13Z" finished-at="2014-08-02T13:30:19Z">
+        <test-method status="PASS" signature="testLinkCase()[pri:0, instance:TestModule1.TestMavenSureFirePlugin@726722a6]" name="testLinkCase" duration-ms="23162" started-at="2015-03-23T22:14:37Z" finished-at="2015-03-23T22:15:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:TestModule1.TestMavenSureFirePlugin@36263003]" name="quit" is-config="true" duration-ms="1252" started-at="2014-08-02T13:30:19Z" finished-at="2014-08-02T13:30:21Z">
+        </test-method> <!-- testLinkCase -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:TestModule1.TestMavenSureFirePlugin@726722a6]" name="quit" is-config="true" duration-ms="1154" started-at="2015-03-23T22:15:00Z" finished-at="2015-03-23T22:15:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

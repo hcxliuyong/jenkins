@@ -52,6 +52,7 @@ public class Browsers {
 		    case chrome:
 				System.setProperty("webdriver.chrome.driver", projectpath+"/tool/chromedriver.exe"); 
 				caps = DesiredCapabilities.chrome();
+			
 				caps.setCapability("chrome.switches",Arrays.asList("--start-maximized"));  //最大化browser
 				//capabilities.setCapability("chrome.switches", Arrays.asList("--proxy-server=http://your-proxy-domain:4443")); //设置代理
 				driver = new ChromeDriver(caps);

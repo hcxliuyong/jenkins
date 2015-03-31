@@ -15,7 +15,7 @@ private WebDriver driver;
 	
 	@BeforeClass
 	public void beforeClass(){
-		Browsers browser = new Browsers(BrowsersType.chrome);
+		Browsers browser = new Browsers(BrowsersType.ie);
 		driver = browser.driver;
 	}
 

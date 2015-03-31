@@ -17,7 +17,7 @@ public class TestMutipleThreads {
 
 	@Test 
 	public void visitJD(){		
-		Browsers browser = new Browsers(BrowsersType.firefox);
+		Browsers browser = new Browsers(BrowsersType.ie);
 		driver = browser.driver;
 		driver.get("http://www.jd.com");
 
@@ -27,7 +27,7 @@ public class TestMutipleThreads {
 	
 	@Test 
 	public void visit51buy(){		
-		Browsers browser = new Browsers(BrowsersType.firefox);
+		Browsers browser = new Browsers(BrowsersType.ie);
 		driver = browser.driver;
 		driver.get("http://www.51buy.com");
 		driver.quit();
