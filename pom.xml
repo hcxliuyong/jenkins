@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.alwaysterry</groupId>
+  <groupId>com.hcxliuyong</groupId>
   <artifactId>demoa</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>demoa</name>
+  <name>com.hcxliuyong.demoa</name>
   <description>demoa</description>
   
  <!--    sureXmlFiles for testng-->
@@ -138,6 +138,7 @@
   		<groupId>org.testng</groupId>
   		<artifactId>testng</artifactId>
   		<version>6.8.5</version>
+  		<scope>compile</scope>   
   	</dependency>
   	  <dependency>
   	<groupId>br.eti.kinoshita</groupId>
@@ -151,10 +152,10 @@
   	<artifactId>xml-apis</artifactId>
   	<version>1.4.01</version>
   </dependency>
-<!--   	<dependency> -->
-<!--   		<groupId>FireflyAutomation</groupId> -->
-<!--   		<artifactId>FireflyAutomation</artifactId> -->
-<!--   		<version>0.0.1-SNAPSHOT</version> -->
-<!--   	</dependency> -->
+  	<dependency>
+  		<groupId>FireflyAutomation</groupId>
+  		<artifactId>FireflyAutomation</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>
