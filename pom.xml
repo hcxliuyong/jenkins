@@ -7,11 +7,13 @@
   <description>demoa</description>
   
  <!--    sureXmlFiles for testng-->
-  <build>
+
+  
+ <build>
      <plugins>
-         <plugin>
+         <plugin>        
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.10</version>
+            <version>2.18.1</version>
             <configuration>
               <excludes>
               
@@ -34,6 +36,7 @@
          </plugin>
      </plugins>
   </build>
+  
   
   
   
@@ -152,10 +155,10 @@
   	<artifactId>xml-apis</artifactId>
   	<version>1.4.01</version>
   </dependency>
-  	<dependency>
+  <!-- 	<dependency>
   		<groupId>FireflyAutomation</groupId>
   		<artifactId>FireflyAutomation</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	</dependency> -->
   </dependencies>
 </project>
